@@ -1,0 +1,10 @@
+---
+Name: mysite
+After: 'cms/*'
+---
+ArrayList:
+  extensions:
+    - ListSplitter
+ContentController:
+  extensions:
+    - SplitMenu
